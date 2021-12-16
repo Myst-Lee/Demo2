@@ -55,9 +55,15 @@
         android:label="fragment_search_frag_details"
         tools:layout="@layout/fragment_search_frag_details" />
     <activity
-        android:id="@+id/nav_displayViewActivity"
-        android:name="my.edu.tarc.demo2.ui.search.DisplayViewActivity"
-        android:label="DisplayViewActivity" />
+        android:id="@+id/nav_InBound"
+        android:name="my.edu.tarc.demo2.scanin.ActivityInBound"
+        android:label="activity_in_bound"
+        tools:layout="@layout/activity_in_bound" />
+    <!--    <activity-->
+<!--        android:id="@+id/nav_scanIn"-->
+<!--        android:name="my.edu.tarc.demo2.scanin.ScanInActivity"-->
+<!--        android:label="activity_scan_in"-->
+<!--        tools:layout="@layout/activity_scan_in" />-->
 
 
 </navigation>

@@ -11,6 +11,8 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="scan">Scan Code</string>
+    <string name="scan_in">Scan In</string>
+    <string name="inbound">InBound</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="search">Search</string>
@@ -27,6 +29,10 @@
     <string name="transaction">Transaction</string>
     <string name="details">Details</string>
     <string name="clear">Clear</string>
+    <string name="received_by">Received By</string>
+    <string name="received_date">Received Date</string>
+    <string name="submit">Submit</string>
+    <string name="qty_input">Quality Input</string>
 
     <string name="search_by">Search By: </string>
     <string name="item_name">Item Name: </string>
@@ -64,4 +70,6 @@
     <string name="error">Value Required</string>
     <string name="title_activity_sign_in">SignInActivity</string>
     <string name="add_success">Added Successful!!</string>
+
+    <string name="disableReport">Disable Report</string>
 </resources>

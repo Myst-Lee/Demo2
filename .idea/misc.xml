@@ -3,18 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/drawable-v24/button_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.3828125" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/drawable/ic_baseline_pin_drop_24.xml" value="0.3828125" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.3828125" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/activity_another.xml" value="0.36666666666666664" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/activity_login2.xml" value="0.20520833333333333" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/activity_profile.xml" value="0.20520833333333333" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/activity_registration2.xml" value="0.19114583333333332" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/activity_scan.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/activity_scan2.xml" value="0.20520833333333333" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/activity_shared_preference.xml" value="0.33" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/app_bar_search.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/content_search.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/fragment_search_frag_details.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="..\:/MADAssignmentFinal/app/src/main/res/menu/fragment_menu_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/drawable/ic_baseline_pin_drop_24.xml" value="0.23541666666666666" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_another.xml" value="0.275" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_display_view.xml" value="0.4291920069504778" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_dsiplay_view.xml" value="0.3875" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_login.xml" value="0.2234375" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_main2.xml" value="0.21927083333333333" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_profile.xml" value="0.275" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_registration.xml" value="0.3875" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_scan.xml" value="0.3875" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_search.xml" value="0.4" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/activity_signout.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/app_bar_main.xml" value="0.3875" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/app_bar_search.xml" value="0.3875" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/app_bar_search1.xml" value="0.275" />
@@ -22,19 +38,12 @@
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/content_main.xml" value="0.275" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/content_main3.xml" value="0.3875" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/content_search.xml" value="0.275" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment__details.xml" value="0.2557291666666667" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_add_inventory.xml" value="0.21927083333333333" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_blank.xml" value="0.21614583333333334" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_details.xml" value="0.3875" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_home.xml" value="0.3875" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_item.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_item_list.xml" value="0.2609375" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_new_inventory.xml" value="0.536" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_search_frag_details.xml" value="0.3875" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_search_frag_details1.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_search_frag_details.xml" value="0.3667247386759582" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_search_frag_transaction.xml" value="0.6" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/fragment_slideshow.xml" value="0.275" />
-        <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/inventory_item.xml" value="0.2234375" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/main_fragment.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/nav_header_main.xml" value="0.3875" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/layout/search_fragment.xml" value="0.4" />
@@ -42,6 +51,31 @@
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/menu/fragment_menu_profile.xml" value="0.4" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/menu/main.xml" value="0.3875" />
         <entry key="..\:/Users/Lee Ming Yi/AndroidStudioProjects/Demo2/app/src/main/res/menu/search1.xml" value="0.275" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/drawable/ic_baseline_article_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/activity_display_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/activity_in_bound.xml" value="0.264" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/activity_registration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/activity_report.xml" value="0.1828125" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/activity_scan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/activity_scan_in.xml" value="0.264" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/activity_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/activity_signout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/app_bar_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/content_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/fragment_new_inventory.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/fragment_search_frag_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/fragment_search_frag_transaction.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/inventory_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/menu/fragment_menu_profile.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/MSI Bravo 15/AndroidStudioProjects/MADAssignmentFinal/app/src/main/res/menu/main.xml" value="0.1828125" />
       </map>
     </option>
   </component>

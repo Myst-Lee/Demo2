@@ -6,6 +6,10 @@
     <group android:checkableBehavior="single">
 
         <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_keyboard_backspace_24"
+            android:title="@string/logout" />
+        <item
             android:id="@+id/nav_register"
             android:icon="@drawable/ic_baseline_account_circle_24"
             android:title="@string/register" />
@@ -21,14 +25,20 @@
             android:title="@string/menu_home" />
 
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_InBound"
+            android:icon="@drawable/ic_baseline_article_24"
+            android:title="@string/inbound" />
 
-        <item
-            android:id="@+id/nav_logout"
-            android:icon="@drawable/ic_baseline_keyboard_backspace_24"
-            android:title="@string/logout" />
+<!--        <item-->
+<!--            android:id="@+id/nav_slideshow"-->
+<!--            android:icon="@drawable/ic_menu_slideshow"-->
+<!--            android:title="@string/menu_slideshow" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_scanIn"-->
+<!--            android:icon="@drawable/ic_baseline_article_24"-->
+<!--            android:title="@string/scan_in" />-->
+
 
     </group>
 
