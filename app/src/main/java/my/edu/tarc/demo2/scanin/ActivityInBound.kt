@@ -1,46 +1,45 @@
 package my.edu.tarc.demo2.scanin
 
 import android.os.Bundle
-import android.util.Log
+import android.view.View
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.ui.AppBarConfiguration
-import com.google.android.gms.tasks.OnCompleteListener
-import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ktx.database
-import com.google.firebase.ktx.Firebase
+import com.google.firebase.database.*
 import my.edu.tarc.demo2.R
 import my.edu.tarc.demo2.databinding.ActivityInBoundBinding
 import my.edu.tarc.demo2.ui.model.Inventory
+
 
 class ActivityInBound : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityInBoundBinding
     private lateinit var db: DatabaseReference
 
-    lateinit var auth: FirebaseAuth
-    var databaseReference :  DatabaseReference? = null
-    var database: FirebaseDatabase? = null
-    lateinit var ref: DatabaseReference
+    private lateinit var auth: FirebaseAuth
+    private var databaseReference :  DatabaseReference? = null
+    private var database: FirebaseDatabase? = null
+    private lateinit var ref: DatabaseReference
 
-    lateinit var editTextSerialNumber: TextView
+    lateinit var editTextSerialNo : TextView
     lateinit var editTextPartNo: TextView
     lateinit var editTextQtyInput: EditText
     lateinit var editTextRackIn: TextView
     lateinit var editTextRackOut: TextView
     lateinit var editTextRackId: TextView
-    lateinit var inventoryList: MutableList<Inventory>
+    private lateinit var inventoryList: MutableList<Inventory>
+    private lateinit var inventoryList1: ArrayList<Inventory>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityInBoundBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_in_bound)
+        val root: View = binding.root
+
+        ref = FirebaseDatabase.getInstance().getReference("inventory")
+        inventoryList1 = arrayListOf()
 
         auth = FirebaseAuth.getInstance()
         database = FirebaseDatabase.getInstance()
@@ -48,36 +47,41 @@ class ActivityInBound : AppCompatActivity() {
         inventoryList = mutableListOf()
     }
 
-    private fun readData() {
+    private fun readData(series_no :String) {
 
-        val database: DatabaseReference
-        database = Firebase.database.reference
+//        val database: DatabaseReference
+//        database = Firebase.database.reference
+//        val dbase = Firebase.database
+//        val myRef = dbase.getReference("inventory")
 
-        val dbase = Firebase.database
-        val myRef = dbase.getReference("inventory")
+        databaseReference = FirebaseDatabase.getInstance().getReference("inventory")
+        databaseReference!!.child(series_no).get().addOnSuccessListener {
+            if(it.exists()){
+                val serial_no = it.child("Serial Number").value
+                val part_no = it.child("Part Number").value
+                val date_rackIn = it.child("Rack in date").value
+                val date_rackOut = it.child("Rack Out Date").value
+                val rack_no = it.child("Rack Number").value
 
-        val reference = FirebaseDatabase.getInstance().getReference("inventory")
+//                Toast.makeText(this.baseContext"Successful" , Toast.LENGTH_SHORT).show()
 
-        reference.child("Serial Number").get().addOnCompleteListener(OnCompleteListener {
-            fun onComple(task: Task<DataSnapshot>) {
-                if (task.isSuccessful) {
-                    val dataSnapShot: DataSnapshot = task.getResult()
-                    binding.textView19.setText(dataSnapShot.child("Serial Number").getValue().toString())
-                    binding.textView17.setText(dataSnapShot.child("Part Number").getValue().toString())
-                    binding.textView21.setText(dataSnapShot.child("Rack in date").getValue().toString())
-                    binding.textView22.setText(dataSnapShot.child("Rack Out Date").getValue().toString())
-                    binding.textView20.setText(dataSnapShot.child("Rack id").getValue().toString())
+                binding.textViewSerialNo.text = serial_no.toString()
+                binding.textViewPartNo.text = part_no.toString()
+                binding.textViewRackNo.text = rack_no.toString()
+                binding.textViewRackIn.text = date_rackIn.toString()
+                binding.textViewRackOut.text = date_rackOut.toString()
+            }
 
-                }
-
-                val textViewSerialNumber = binding.textView19
-                val textViewPartNo = binding.textView17
-                val textViewQtyInput = binding.editTextQtyInput
-                val textViewRackIn = binding.textView21
-                val textViewRackOut = binding.textView22
-                val textViewRackId = binding.textView20
-
+        }
+        
                 binding.buttonSubmit.setOnClickListener {
+
+                    val textViewSerialNumber = binding.textView19
+                    val textViewPartNo = binding.textView17
+                    val textViewQtyInput = binding.editTextQtyInput
+                    val textViewRackIn = binding.textView21
+                    val textViewRackOut = binding.textView22
+                    val textViewRackId = binding.textView20
 
                     if (binding.editTextQtyInput.text.isEmpty()) {
                         binding.editTextQtyInput.error = "Value Required"
@@ -85,13 +89,34 @@ class ActivityInBound : AppCompatActivity() {
                     }
 
                     val qty_input: Int = Integer.parseInt(binding.editTextQtyInput.text.toString())
+
                 }
 
-                fun onCancelled(error: DatabaseError) {
-                    Log.w("Failed to read value.", error.toException())
-                }
-            }
+//        ref = FirebaseDatabase.getInstance().getReference().child("inventory")
+//        ref.addValueEventListener(object: ValueEventListener {
+//            override fun onDataChange(snapshot: DataSnapshot) {
+//                if (snapshot!!.exists()){
+//                    inventoryList1.clear()
+//                    for (i in snapshot.children){
+//                        val value = i.getValue(Inventory::class.java)
+//                        inventoryList.add(value!!)
+//                    }
+//
+//                }
+//            }
+//
+//        override fun onCancelled(error: DatabaseError) {
+//                Log.w("Failed to read value.", error.toException())
+//
+//            }
 
-        })
+//        })
+
+        }
+
+    override fun onDestroy() {
+        super.onDestroy()
     }
+
 }
+
